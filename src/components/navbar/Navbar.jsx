@@ -1,7 +1,17 @@
 import React, { useState } from 'react'
-import {RiMenu3Line, RiCloseLin } from 'react-icons/ri'
+import {RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import "./navbar.css";
 import logo from '../../assets/logo.svg'
+
+const Menu = () => (
+  <>
+  <p><a href="#home">Home</a></p>
+  <p><a href="#wgpt3">What is GPT?</a></p>
+  <p><a href="#possibility">Open AI</a></p>
+  <p><a href="#features">Case Studies</a></p>
+  <p><a href="#blog">Library</a></p>
+  </>
+)
 
 // BEM -< Block Element Modifier
  const Navbar = () => {
@@ -26,7 +36,7 @@ import logo from '../../assets/logo.svg'
         </div>
         <div className='gpt3__navbar-menu'>
           {toggleMenu
-            ? <RiCLoseLine color="#fff" size={27 } onClick={() => setToggle(false)}/> 
+            ? <RiCloseLine color="#fff" size={27 } onClick={() => setToggle(false)}/> 
             : <RiMenu3Line color="#fff" size={27 } onClick={() => setToggle(true)}/> 
           };
           {toggleMenu && (
