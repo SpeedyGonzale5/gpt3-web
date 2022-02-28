@@ -29,6 +29,11 @@ import logo from '../../assets/logo.svg'
             ? <RiCLoseLine color="#fff" size={27 } onClick={() => setToggle(false)}/> 
             : <RiMenu3Line color="#fff" size={27 } onClick={() => setToggle(true)}/> 
           };
+          {toggleMenu && (
+            <div classname="gpt3__navbar-menu_container scale-up-center">
+              <div className="gpt3__navbar-menu_container-links"></div>
+            </div>
+          )}
         </div>
         </div>
   )
