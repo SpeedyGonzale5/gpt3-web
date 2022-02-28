@@ -11,6 +11,9 @@ import logo from '../../assets/logo.svg'
 <div className='gpt3__navbar-links_logo'>
   <img src= {logo} alt="logo"></img>
 </div>
+<div className='gpt3__navbar-links_container'>
+  
+</div>
         </div>
         </div>
   )
