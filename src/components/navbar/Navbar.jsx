@@ -19,7 +19,10 @@ import logo from '../../assets/logo.svg'
   <p><a href="#blog">Library</a></p>
 </div>
         </div>
-        <div className='gpt3__navbar-sign'></div>
+        <div className='gpt3__navbar-sign'>
+          <p>Sign In</p>
+          <button type="button">Sign up</button>
+        </div>
         </div>
   )
 }
