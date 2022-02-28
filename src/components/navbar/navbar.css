@@ -59,4 +59,7 @@
   left: 1153px;
   top: 55px;
   border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
