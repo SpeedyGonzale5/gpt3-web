@@ -33,7 +33,9 @@
   align-items: center;
 }
 
-.gpt3__navbar-links_container {
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
