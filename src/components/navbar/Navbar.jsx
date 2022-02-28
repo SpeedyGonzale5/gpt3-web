@@ -16,7 +16,8 @@ const Menu = () => (
 // BEM -< Block Element Modifier
  const Navbar = () => {
    const [toggleMenu, setToggleMenu] = useState(false);
-  return (
+  
+   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
 <div className='gpt3__navbar-links_logo'>
