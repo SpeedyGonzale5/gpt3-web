@@ -46,3 +46,7 @@
   margin: 0 1rem;
   cursor: pointer;
 }
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+}
