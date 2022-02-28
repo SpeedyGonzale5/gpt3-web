@@ -16,18 +16,15 @@ const Menu = () => (
 // BEM -< Block Element Modifier
  const Navbar = () => {
    const [toggleMenu, setToggleMenu] = useState(false);
-  return (
+ 
+   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
 <div className='gpt3__navbar-links_logo'>
   <img src= {logo} alt="logo"></img>
 </div>
 <div className='gpt3__navbar-links_container'>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#wgpt3">What is GPT?</a></p>
-  <p><a href="#possibility">Open AI</a></p>
-  <p><a href="#features">Case Studies</a></p>
-  <p><a href="#blog">Library</a></p>
+  <Menu />
 </div>
         </div>
         <div className='gpt3__navbar-sign'>
@@ -40,7 +37,7 @@ const Menu = () => (
             : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)}/> 
           };
           {toggleMenu && (
-            <div classname="gpt3__navbar-menu_container scale-up-center">
+            <div className="gpt3__navbar-menu_container scale-up-center">
               <div className="gpt3__navbar-menu_container-links"></div>
             </div>
           )}
