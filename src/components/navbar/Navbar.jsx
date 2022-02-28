@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {RiMenu3Line, RiCloseLin } from 'react-icons/ri'
 import "./navbar.css";
 import logo from '../../assets/logo.svg'
@@ -23,6 +23,7 @@ import logo from '../../assets/logo.svg'
           <p>Sign In</p>
           <button type="button">Sign up</button>
         </div>
+        <div className='gpt3__navbar-menu'></div>
         </div>
   )
 }
