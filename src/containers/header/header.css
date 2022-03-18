@@ -52,6 +52,7 @@
   padding: 0 1rem;
   outline: none;
   color: #fff;
+
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -65,10 +66,12 @@
   font-size: 20px;
   line-height: 27px;
   background: #ff4820;
-  border-radius: 5px 0px 0px 5px;
   color: #ffffff;
   cursor: pointer;
   outline: none;
   padding: 0 1rem;
   border: none;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
