@@ -121,3 +121,14 @@
     margin: 0 0 3rem;
   }
 }
+
+@media (max-width: 650px) {
+  .gpt3__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .gpt3__header-content {
+    margin: 0 0 3rem;
+  }
+}
