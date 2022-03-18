@@ -20,13 +20,5 @@
   font-weight: 800;
   font-size: 62px;
   line-height: 75px;
-  /* or 121% */
-
   letter-spacing: -0.04em;
-
-  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
