@@ -13,4 +13,5 @@
 
 .gtp3__header-content h1 {
   font-family: var(--font-family);
+  font-weight: 2000;
 }
