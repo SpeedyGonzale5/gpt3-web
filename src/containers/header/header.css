@@ -59,15 +59,15 @@
   flex: 0.6;
   width: 100%;
   min-height: 50px;
-
-  background: #ff4820;
-  border-radius: 5px 0px 0px 5px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
   font-family: var(--font-family);
-  font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   line-height: 27px;
-
+  background: #ff4820;
+  border-radius: 5px 0px 0px 5px;
   color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  padding: 0 1rem;
+  border: none;
 }
