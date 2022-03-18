@@ -5,7 +5,21 @@ import "./brand.css";
 const Brand = () => {
   return (
     <div className="gtp3__brand section__padding ">
-      <div></div>
+      <div>
+        <img src={google} alt="google" />
+      </div>
+      <div>
+        <img src={google} alt="google" />
+      </div>
+      <div>
+        <img src={google} alt="google" />
+      </div>
+      <div>
+        <img src={google} alt="google" />
+      </div>
+      <div>
+        <img src={google} alt="google" />
+      </div>
     </div>
   )
 }
