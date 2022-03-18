@@ -39,3 +39,16 @@
   margin: 2rem 0 1rem;
   display: flex;
 }
+
+.gpt3__header-content__input input {
+  flex: 2;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #3d6184;
+}
