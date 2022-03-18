@@ -8,6 +8,9 @@ import "./whatGPT3.css";
       <div className="gpt3__whatgpt3-feature">
         <Feature/>
       </div>
+      <div className="gpt3__whatgpt3-heading">
+        <h1 className="gradient-text"></h1>
+      </div>
     </div>
   )
 }
