@@ -76,3 +76,12 @@
   max-width: 510px;
   font-family: var(--font-family-);
 }
+
+.gpt3__whatgpt3-heading p {
+  font-family: var(--font-family-);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
