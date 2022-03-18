@@ -22,3 +22,14 @@
   line-height: 75px;
   letter-spacing: -0.04em;
 }
+
+.gpt3__header-content p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: var(--color-text);
+  margin-top: 1.5rem;
+}
