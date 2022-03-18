@@ -99,3 +99,8 @@
   color: #ffffff;
   text-align: center;
 }
+
+.gpt3__header-image__people {
+  flex: 1;
+  display: flex;
+}
