@@ -1,17 +1,3 @@
-.gtp3__header {
+.gpt3__header {
   display: flex;
-}
-
-.gtp3__header-content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-right: 5rem;
-}
-
-.gtp3__header-content h1 {
-  font-family: var(--font-family);
-  font-weight: 2000;
 }
