@@ -9,7 +9,8 @@ import "./whatGPT3.css";
         <Feature/>
       </div>
       <div className="gpt3__whatgpt3-heading">
-        <h1 className="gradient-text"></h1>
+        <h1 className="gradient-text">The possibilities are beyond your imagination</h1>
+        <p>Explore The Library</p>
       </div>
     </div>
   )
