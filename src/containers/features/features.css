@@ -15,3 +15,11 @@
   text-align: left;
   margin-right: 5rem;
 }
+
+.gpt3__features-heading h1 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
