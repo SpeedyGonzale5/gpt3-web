@@ -9,6 +9,11 @@ const Possibility = () => {
       <div className="gtp3__possibility-image">
         <img src={possibilityImage} alt="possibility"></img>
       </div>
+      <div className="gtp3__possibility-content">
+        <h4>Request Early Access to Get Started</h4>
+        <h1 className="gradient-text">The possibilities are beyond your imagination</h1>
+        <p></p>
+      </div>
     </div>
   )
 }
