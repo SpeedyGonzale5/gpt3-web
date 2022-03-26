@@ -46,4 +46,8 @@
   .gpt3__features {
     flex-direction: column;
   }
+
+  .gpt3__features-heading {
+    margin: 0 0 2rem 0;
+  }
 }
