@@ -1,0 +1,8 @@
+.gpt3__possibility {
+  display: flex;
+  flex-direction: row;
+}
+
+.gpt3__possibility-image {
+  flex: 1;
+}
