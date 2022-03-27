@@ -8,6 +8,7 @@ const Blog = () => {
         <h1 className="gradient__text">A lot is happening, 
 We are blogging about it.</h1> 
         </div>
+        <div className="gpt3__blog-container"></div>
     </div>
   )
 }
