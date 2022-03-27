@@ -58,4 +58,7 @@
   .gpt3__blog-container_groupB {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .gpt3__blog-container_groupA .gpt3__blog-container_article {
+  }
 }
