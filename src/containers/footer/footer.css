@@ -100,4 +100,9 @@
   line-height: 14px;
 
   color: #ffffff;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.gpt3__footer-copyright {
 }
