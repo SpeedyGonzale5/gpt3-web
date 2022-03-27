@@ -23,3 +23,13 @@
   text-align: center;
   letter-spacing: -0.04em;
 }
+
+.gpt3__footer-btn p {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
