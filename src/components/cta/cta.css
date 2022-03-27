@@ -54,4 +54,8 @@
   .gpt3__cta {
     flex-direction: column;
   }
+
+  .gpt3__cta-btn {
+    margin: 2rem 0 0;
+  }
 }
