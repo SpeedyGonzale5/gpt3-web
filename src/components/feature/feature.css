@@ -49,6 +49,7 @@
   .gpt3__features-container__feature-title h1 {
     font-size: 14px;
     line-height: 22px;
+    flex-direction: column;
   }
 
   .gpt3__features-container_feature-text p {
