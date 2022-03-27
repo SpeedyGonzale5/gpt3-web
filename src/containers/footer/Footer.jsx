@@ -21,12 +21,24 @@ const Footer = () => {
 
         <div className="gpt3__footer-links_div">
           <h4> Links</h4>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>Overons</p>
+          <p>Social Media</p>
+          <p>Counters</p>
+          <p>Contact</p>
         </div>
+
+        <div className="gpt3__footer-links_div">
+          <h4> Company</h4>
+          <p>Privacy Policy</p>
+          <p>Social Media</p>
+          <p>Contact</p>
+          </div>
+
+          <div className="gpt3__footer-links_div">
+          <h4>Crechterwoord K12 182 DK Alknjkcb</h4>
+          <p>085-132567</p>
+          <p>info@payme.net</p>
+          </div>
       </div>
     </div>
   )
