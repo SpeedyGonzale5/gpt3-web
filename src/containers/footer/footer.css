@@ -25,6 +25,12 @@
 }
 
 .gpt3__footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  border: 1px solid #fff;
 }
 
 .gpt3__footer-btn p {
