@@ -27,22 +27,23 @@
   color: #000000;
 }
 
-.gpt3__cta-content-btn {
+.gpt3__cta-btn {
   display: flex;
   justify-content: center;
   align-items: center;
+
   margin-left: 2rem;
 }
 
 .gpt3__cta-btn button {
-  background: #000000;
-  color: #ffffff;
-  border-radius: 40px;
+  background: #000;
+  color: #fff;
   font-family: var(--font-family);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 30px;
   padding: 0.5rem 1rem;
+  border-radius: 2rem;
 
   border: none;
   outline: none;
@@ -62,6 +63,7 @@
 
 @media screen and (max-width: 550px) {
   .gpt3__cta {
+    flex-direction: column;
     margin: 4rem 2rem;
   }
 
