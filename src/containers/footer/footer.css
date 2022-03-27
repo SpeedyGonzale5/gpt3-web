@@ -73,3 +73,11 @@
 
   margin-bottom: 1rem;
 }
+
+.gpt3__footer-links_logo p {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
