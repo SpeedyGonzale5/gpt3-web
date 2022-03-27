@@ -55,9 +55,10 @@
   .gpt3__features-container_feature-text p {
     font-size: 12px;
     line-height: 20px;
+    flex-direction: column;
   }
 
   .gpt3__features-container__feature {
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
 }
