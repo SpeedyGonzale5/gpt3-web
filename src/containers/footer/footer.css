@@ -1,6 +1,4 @@
 .gpt3__footer {
-  color: white;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,9 +73,14 @@
 }
 
 .gpt3__footer-links_logo p {
-  font-family: "Gilroy-Medium";
+  font-family: var(--font-family-);
   font-size: 12px;
   line-height: 14px;
-
   color: #ffffff;
+}
+
+.gpt3__footer-links_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
