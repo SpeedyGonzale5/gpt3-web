@@ -40,6 +40,8 @@ const Footer = () => {
           <p>info@payme.net</p>
           </div>
       </div>
+
+      <div></div>
     </div>
   )
 }
