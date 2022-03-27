@@ -24,12 +24,15 @@
   letter-spacing: -0.04em;
 }
 
+.gpt3__footer-btn {
+}
+
 .gpt3__footer-btn p {
   border: 1px solid #ffffff;
   box-sizing: border-box;
-  font-family: "Gilroy-Medium";
+  font-family: var(--font-family-);
   font-size: 18px;
   line-height: 21px;
-
   color: #ffffff;
+  word-spacing: 2px;
 }
