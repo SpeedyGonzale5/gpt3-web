@@ -18,6 +18,15 @@ const Footer = () => {
           <img src={gpt3Logo}></img>
           <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
         </div>
+
+        <div className="gpt3__footer-links_div">
+          <h4> Links</h4>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
       </div>
     </div>
   )
