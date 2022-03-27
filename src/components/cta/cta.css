@@ -1,0 +1,12 @@
+.gpt3__cta {
+  border: 1px solid white;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  padding: 2rem;
+  margin: 4rem;
+  border: 1rem;
+}
