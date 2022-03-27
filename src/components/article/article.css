@@ -22,4 +22,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+.gpt3__blog-container_article-content p {
+}
+
+.gpt3__blog-container_article-content h3 {
+}
+
+.gpt3__blog-container_article-content p:last-child {
 }
