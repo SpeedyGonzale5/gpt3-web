@@ -11,9 +11,9 @@ jobs:
         with:
           node-version: '16'
       -  run: npm ci
+      -  run: npm run build
          env:
           CI: false
-      -  run: npm run build
       
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
