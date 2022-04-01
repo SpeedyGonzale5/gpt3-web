@@ -11,6 +11,8 @@ jobs:
         with:
           node-version: '16'
       -  run: npm ci
+         env:
+          CI: ""
       -  run: npm run build
       
       - name: Deploy 🚀
