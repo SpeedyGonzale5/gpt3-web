@@ -44,6 +44,7 @@ const Menu = () => (
             <p>Sign in</p>
             <button type="button">Sign up</button>
           </div>
+          <div className="ign__navbar-menu_searchbar"></div>
               </div>
             </div>
           )}
