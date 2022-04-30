@@ -9,12 +9,17 @@
 .gpt3__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .gpt3__navbar-links_logo {
   margin-right: 2rem;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
 .gpt3__navbar-links_logo img {
