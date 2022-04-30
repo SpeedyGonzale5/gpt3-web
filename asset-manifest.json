@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gpt3-web/static/css/main.653c9152.css",
-    "main.js": "/gpt3-web/static/js/main.fa012eeb.js",
+    "main.js": "/gpt3-web/static/js/main.8bf3deed.js",
     "static/media/ai.png": "/gpt3-web/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/possibility.png": "/gpt3-web/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/gpt3-web/static/media/blog01.cefc0932eae0d33a0342.png",
@@ -9,14 +9,15 @@
     "static/media/blog04.png": "/gpt3-web/static/media/blog04.742c1357e7b6c11078e6.png",
     "static/media/blog05.png": "/gpt3-web/static/media/blog05.bfaa1c1e3851158e0e1f.png",
     "static/media/blog02.png": "/gpt3-web/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/logo2.png": "/gpt3-web/static/media/logo2.940ca5984b9da30f356f.png",
     "static/media/people.png": "/gpt3-web/static/media/people.5cd2d6fbcd48bd63f106.png",
     "static/media/logo.svg": "/gpt3-web/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
     "index.html": "/gpt3-web/index.html",
     "main.653c9152.css.map": "/gpt3-web/static/css/main.653c9152.css.map",
-    "main.fa012eeb.js.map": "/gpt3-web/static/js/main.fa012eeb.js.map"
+    "main.8bf3deed.js.map": "/gpt3-web/static/js/main.8bf3deed.js.map"
   },
   "entrypoints": [
     "static/css/main.653c9152.css",
-    "static/js/main.fa012eeb.js"
+    "static/js/main.8bf3deed.js"
   ]
 }
