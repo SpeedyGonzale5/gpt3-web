@@ -3,6 +3,9 @@ import {RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import "./navbar.css";
 import logo from '../../assets/logo2.png'
 
+import { SearchBar } from '@rneui/themed';
+import { View, Text, StyleSheet } from 'react-native';
+
 const Menu = () => (
   <>
   <p><a href="#home">News</a></p>
@@ -44,7 +47,9 @@ const Menu = () => (
             <p>Sign in</p>
             <button type="button">Sign up</button>
           </div>
-          <div className="ign__navbar-menu_searchbar"></div>
+          <div className="ign__navbar-menu_searchbar">
+
+          </div>
               </div>
             </div>
           )}
