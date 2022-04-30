@@ -4,6 +4,8 @@
   "homepage": "https://www.pedronevarez.dev/gpt3-web/",
   "private": true,
   "dependencies": {
+    "@rneui/base": "^4.0.0-rc.2",
+    "@rneui/themed": "^4.0.0-rc.2",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
