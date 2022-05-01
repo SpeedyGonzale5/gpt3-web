@@ -5,13 +5,13 @@ import ai from '../../assets/ai.png';
 import axios from "axios"
 const Header = () => {
   const [data, setData] = useState({})
-  const ignURL = "http://127.0.0.1:5000/api/articles"
+  const ignArticleURL = "http://127.0.0.1:5000/api/articles"
   useEffect(() => {
     fetchData()
   }, []);
 
 const fetchData = async () => {
-  let fetchResponse = await axios.get(ignURL)
+  let fetchResponse = await axios.get(ignArticleURL)
   if(fetchResponse.status === 200){
     setData(fetchResponse.data.data)
   }
