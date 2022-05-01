@@ -7,13 +7,16 @@ const Header = () => {
   const [data, setData] = useState({})
   const ignURL = "https://ign-apis.herokuapp.com/"
   useEffect(() => {
-    (() => {
-       fetch(ignURL)
-      .then(response => response.json())
-      .then(json => setData(json)
-     )();
+    fetchData()
   }, []);
-})
+
+const fetchData = async () => {
+  let fetchResponse = await fetch(ignURL)
+  console.log(fetchResponse)
+  // let response = await fetchResponse.json() 
+  // console.log(response)
+
+}
   console.log(data);
   return (
     <div className ="gpt3__header section__padding" id ="home">
