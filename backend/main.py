@@ -6,10 +6,11 @@ cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 @app.route("/api/articles")
 def articles():
     response = requests.get("https://ign-apis.herokuapp.com/articles")
+    print(response.json().get("data"))
     return response.json()
 
 @app.route("/api/videos")
-def articles():
+def videos():
     response = requests.get("https://ign-apis.herokuapp.com/videos")
     return response.json()
 
