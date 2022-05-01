@@ -15,9 +15,8 @@ const fetchData = async () => {
     method: "GET",
     mode: "no-cors"
   })
-  console.log("yo, ", fetchResponse.json())
-  // let response = await fetchResponse.json() 
-  // console.log(response)
+  let response = await fetchResponse
+  console.log(response)
 
 }
   console.log(data);
