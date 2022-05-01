@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./header.css";
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
-
+import axios from "axios"
 const Header = () => {
   const [data, setData] = useState({})
   const ignURL = "https://ign-apis.herokuapp.com"
@@ -11,13 +11,11 @@ const Header = () => {
   }, []);
 
 const fetchData = async () => {
-  let fetchResponse = await fetch(ignURL, {
-    method: "GET",
-    mode: "no-cors"
-  })
-  let response = await fetchResponse
-  console.log(response)
-
+  let fetchResponse = await axios.get(ignURL)
+  if(fetchResponse.status === 200){
+    let response = await fetchResponse.json()
+    console.log(response)
+  }
 }
   console.log(data);
   return (
