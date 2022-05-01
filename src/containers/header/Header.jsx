@@ -8,7 +8,7 @@ const Header = () => {
   const ignURL = "https://ign-apis.herokuapp.com/"
   useEffect(() => {
     fetch(ignURL, {
-     mode: "no-cors"
+     mode: "no-cors",
     })
     .then((response) => response.json())
     .then((jsonData) => setData(jsonData))
