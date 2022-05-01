@@ -8,5 +8,10 @@ def articles():
     response = requests.get("https://ign-apis.herokuapp.com/articles")
     return response.json()
 
+@app.route("/api/videos")
+def articles():
+    response = requests.get("https://ign-apis.herokuapp.com/videos")
+    return response.json()
+
 if __name__ == "__main__":
     app.run()

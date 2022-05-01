@@ -13,7 +13,7 @@ const Header = () => {
 const fetchData = async () => {
   let fetchResponse = await axios.get(ignURL)
   if(fetchResponse.status === 200){
-    console.log(fetchResponse)
+    setData(fetchResponse)
   }
 }
   console.log(data);
