@@ -11,7 +11,13 @@ const Header = () => {
   }, []);
 
 const fetchData = async () => {
-  let fetchResponse = await fetch(ignURL)
+  let fetchResponse = await fetch(ignURL, {
+    method: "GET",
+    mode: "cors",
+    headers:{
+      'Access-Control-Allow-Origin':'*'
+  },
+  })
   console.log(fetchResponse)
   // let response = await fetchResponse.json() 
   // console.log(response)
