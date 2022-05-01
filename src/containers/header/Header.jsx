@@ -13,10 +13,7 @@ const Header = () => {
 const fetchData = async () => {
   let fetchResponse = await fetch(ignURL, {
     method: "GET",
-    mode: "cors",
-    headers:{
-      'Access-Control-Allow-Origin':'*'
-  },
+    mode: "no-cors"
   })
   console.log(fetchResponse)
   // let response = await fetchResponse.json() 
