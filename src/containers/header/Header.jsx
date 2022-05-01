@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png';
 import axios from "axios"
 const Header = () => {
   const [data, setData] = useState({})
-  const ignURL = "https://ign-apis.herokuapp.com"
+  const ignURL = "https://ign-apis.herokuapp.com/articles"
   useEffect(() => {
     fetchData()
   }, []);
