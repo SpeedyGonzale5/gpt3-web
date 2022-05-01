@@ -3,10 +3,6 @@ import {RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import "./navbar.css";
 import logo from '../../assets/logo2.png'
 
-import { SearchBar } from '@rneui/themed';
-import { View, Text, StyleSheet } from 'react-native';
-
-
 const Menu = () => (
   <>
   <p><a href="#home">News</a></p>
