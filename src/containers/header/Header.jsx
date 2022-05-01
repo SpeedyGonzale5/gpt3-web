@@ -6,17 +6,14 @@ import ai from '../../assets/ai.png';
 const Header = () => {
   const [data, setData] = useState({})
   const ignURL = "https://ign-apis.herokuapp.com/"
-  useEffect(async () => {
-      const fetchData = () =>{
-        fetch(ignURL, {
-          mode: "no-cors",
-         })
-         .then((response) => response.json())
-         .then((jsonData) => setData(jsonData))
-      }
-
-    fetchData()
-  }, [])
+  useEffect(() => {
+      (() => {
+      fetch(ignURL)
+     .then(response => response.json())
+     .then(json => setData(json)
+      )();
+    }, []);
+  })
   console.log(data);
   return (
     <div className ="gpt3__header section__padding" id ="home">
