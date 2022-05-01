@@ -6,6 +6,7 @@ import logo from '../../assets/logo2.png'
 import { SearchBar } from '@rneui/themed';
 import { View, Text, StyleSheet } from 'react-native';
 
+
 const Menu = () => (
   <>
   <p><a href="#home">News</a></p>
