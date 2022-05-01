@@ -8,10 +8,11 @@ const Header = () => {
   const ignURL = "https://ign-apis.herokuapp.com/"
   useEffect(() => {
     fetchData(ignURL, {
-      mode: "no-cors",
-      // headers: {
-      //   "Access-Control-Allow-Origin": "*"
-      // }
+      headers: {
+        "Content-Type" : "application/json",
+        "Access-Control-Allow-Headers" : "Content-Type",
+        "Access-Control-Allow-Origin": "*",
+      }
     })
     .then((response) => console.log(response))
   }, []);
