@@ -5,16 +5,17 @@ import ai from '../../assets/ai.png';
 
 const Header = () => {
   const [data, setData] = useState({})
-  const ignURL = "https://ign-apis.herokuapp.com/"
-  fetch(ignURL)
-  .then((response) => console.log(response))
+  const ignURL = "https://ign-apis.herokuapp.com"
+  useEffect(() => {
+    fetchData()
+  }, []);
 
 const fetchData = async () => {
   let fetchResponse = await fetch(ignURL, {
     method: "GET",
-    
+    mode: "no-cors"
   })
-  console.log("yo, ", fetchResponse)
+  console.log("yo, ", fetchResponse.json())
   // let response = await fetchResponse.json() 
   // console.log(response)
 
