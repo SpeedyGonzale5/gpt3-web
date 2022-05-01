@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import "./header.css";
 import people from '../../assets/people.png';
 import ai from '../../assets/ai.png';
 
 const Header = () => {
+  const [data, setData] = useState({})
+  const ignURL = "https://ign-apis.herokuapp.com/"
+  useEffect(() => {
+    fetch(ignURL, {
+     mode: "no-cors"
+    })
+    .then((response) => response.json())
+    .then((jsonData) => setData(jsonData))
+  }, [])
+  console.log(data);
   return (
     <div className ="gpt3__header section__padding" id ="home">
       <div className ="gpt3__header-content">
