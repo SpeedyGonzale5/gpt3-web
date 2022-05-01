@@ -6,16 +6,8 @@ import ai from '../../assets/ai.png';
 const Header = () => {
   const [data, setData] = useState({})
   const ignURL = "https://ign-apis.herokuapp.com/"
-  useEffect(() => {
-    fetchData(ignURL, {
-      headers: {
-        "Content-Type" : "application/json",
-        "Access-Control-Allow-Headers" : "Content-Type",
-        "Access-Control-Allow-Origin": "*",
-      }
-    })
-    .then((response) => console.log(response))
-  }, []);
+  fetch(ignURL)
+  .then((response) => console.log(response))
 
 const fetchData = async () => {
   let fetchResponse = await fetch(ignURL, {
