@@ -5,9 +5,15 @@ import ai from '../../assets/ai.png';
 
 const Header = () => {
   const [data, setData] = useState({})
-  const ignURL = "https://ign-apis.herokuapp.com"
+  const ignURL = "https://ign-apis.herokuapp.com/"
   useEffect(() => {
-    fetchData()
+    fetchData(ignURL, {
+      mode: "no-cors",
+      // headers: {
+      //   "Access-Control-Allow-Origin": "*"
+      // }
+    })
+    .then((response) => console.log(response))
   }, []);
 
 const fetchData = async () => {
